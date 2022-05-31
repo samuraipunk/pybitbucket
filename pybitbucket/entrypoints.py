@@ -75,7 +75,7 @@ entrypoints_json = """
       "href": "https://api.bitbucket.org/2.0/repositories{/owner,repository_name}/refs/branches{/ref_name}"
     },
     "repositoryPullRequestsInState": {
-      "href": "https://api.bitbucket.org/2.0/repositories{/owner,repository_name}/pullrequests?pagelen=50&fields=next,pagelen,page,size,values.id,values.reviewers.display_name,values.state,values.title,values.links.html,values.participants,values.author.display_name,values.task_count"
+      "href": "https://api.bitbucket.org/2.0/repositories{/owner,repository_name}/pullrequests?pagelen=50&fields=next,pagelen,page,size,values.id,values.reviewers.display_name,values.state,values.title,values.links.html,values.participants,values.author,values.task_count,values.created_on,values.source,values.destination"
     },
     "repositoryPullRequestActivitiesForWholeRepository": {
       "href": "https://api.bitbucket.org/2.0/repositories{/owner,repository_name}/pullrequests/activity"
